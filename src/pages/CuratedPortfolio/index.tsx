@@ -27,7 +27,7 @@ const CuratedPortfolio = () => {
           <input
             type="text"
             id="text"
-            className="bg-[#18749D] p-3 rounded-md w-[100%]"
+            className="bg-[#18749D] p-3 rounded-md w-[100%] placeholder:text-white/70"
             placeholder="Enter Name"
             required
           />
@@ -42,7 +42,7 @@ const CuratedPortfolio = () => {
           <input
             type="text"
             id="text"
-            className="bg-[#18749D] p-3 rounded-md w-[100%]"
+            className="bg-[#18749D] p-3 rounded-md w-[100%] placeholder:text-white/70"
             placeholder="Enter Ticker"
             required
           />
@@ -57,7 +57,7 @@ const CuratedPortfolio = () => {
           <input
             type="text"
             id="text"
-            className="bg-[#18749D] p-3 rounded-md w-[100%]"
+            className="bg-[#18749D] p-3 rounded-md w-[100%] placeholder:text-white/70"
             placeholder="Select Expected Returns"
             required
           />
@@ -69,7 +69,7 @@ const CuratedPortfolio = () => {
           >
             Search Asset 
           </label>
-          <select className="bg-[#18749D] p-3 rounded-md w-[100%]">
+          <select className="form-select appearance-none bg-[#18749D] p-3 rounded-md w-[100%] text-white/70">
             <option><i className="fa fa-search"></i> Search Asset Name</option>
           </select>
         </div>
@@ -83,7 +83,7 @@ const CuratedPortfolio = () => {
           <input
             type="text"
             id="text"
-            className="bg-[#18749D] p-3 rounded-md w-[100%]"
+            className="bg-[#18749D] p-3 rounded-md w-[100%] placeholder:text-white/70"
             placeholder="Enter Fees"
             required
           />

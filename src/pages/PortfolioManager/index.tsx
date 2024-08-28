@@ -28,7 +28,7 @@ const PortfolioManager = () => {
           <input
             type="text"
             id="text"
-            className="bg-[#18749D] p-3 rounded-md w-[100%]"
+            className="bg-[#18749D] p-3 rounded-md w-[100%] placeholder:text-white/70"
             placeholder="Enter Amount"
             required
           />
@@ -43,7 +43,7 @@ const PortfolioManager = () => {
           <input
             type="text"
             id="text"
-            className="bg-[#18749D] p-3 rounded-md w-[100%]"
+            className="bg-[#18749D] p-3 rounded-md w-[100%] placeholder:text-white/70"
             placeholder="Search Portfolio Name "
             required
           />
