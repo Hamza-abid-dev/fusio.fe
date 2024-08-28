@@ -1,4 +1,4 @@
-const InvestmentCard = (props: InvestmentCardProps) => {
+const InvestmentCard: React.FC<InvestmentCardProps> = (props) => {
     const colorClass = props.value.startsWith('-') ? 'text-red-500' : 'text-green-500';
 	return (
 		<div className="card bg-[#FFFFFF]/50 text-black p-4 rounded-xl shadow-md flex flex-col md:flex-row items-center justify-between">

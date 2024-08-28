@@ -98,8 +98,8 @@ const Explore = () => {
     setActiveButton(buttonId);
   };
   return (
-    <>
-      <div className="flex flex-col lg:flex-row justify-between items-center bg-[#18749D] py-2 px-5 text-white rounded-lg mt-16">
+    <div className="p-5">
+      <div className="flex flex-col lg:flex-row justify-between items-center bg-[#18749D] py-4 px-5 text-white rounded-lg mt-16">
   <div className="flex flex-col lg:flex-row items-center gap-6 font-semibold mb-4 lg:mb-0">
     <Link
       to=""
@@ -150,7 +150,7 @@ const Explore = () => {
 			<ExploreCard key={x.title} img={x.img} title={x.title} desc1={x.desc1} desc2={x.desc2} desc3={x.desc3} desc4={x.desc4}/>
 		))}
 	  </div>
-    </>
+    </div>
   );
 };
 

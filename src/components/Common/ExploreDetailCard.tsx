@@ -1,4 +1,4 @@
-const ExploreDetailCard = (props: ExploreDetailCardProps) => {
+const ExploreDetailCard: React.FC<ExploreDetailCardProps> = (props) => {
 	return (
 		<div className="flex items-center bg-[#18749D] p-4 gap-5 text-white font-semibold rounded-xl">
 		<div>

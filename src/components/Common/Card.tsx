@@ -1,4 +1,4 @@
-const Card = (props: CardProps) => {
+const Card: React.FC<CardProps> = (props) => {
 	return (
 		<div className="card shadow-xl shadow-[#919191] flex bg-white items-center py-2 px-4 rounded-xl justify-between">
 		{/* Image Section */}

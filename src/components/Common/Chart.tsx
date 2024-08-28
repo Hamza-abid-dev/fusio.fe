@@ -20,7 +20,7 @@ interface AlphabetStockEntry {
   volume: number;
 }
 
-const Chart: React.FC = () => {
+const Chart: React.FC<AlphabetStockEntry> = () => {
   // Ensure the data conforms to the expected type
   const series: AllSeriesType[] = [
     {

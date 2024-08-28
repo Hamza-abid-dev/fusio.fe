@@ -31,7 +31,7 @@ const WithdrawCard: React.FC<MyOrderCardsProps> = (props) => {
           />
           <div className="flex flex-col mt-3">
             <h2 className="font-semibold text-white text-xl">{props.title}</h2>
-            <h5 className="bg-[#05E700] p-1 text-xs text-[green] w-[45%] mt-1 rounded-sm">Executed</h5>
+            <h5 className="bg-[#05E700] p-1 text-xs text-[green] w-[40%] mt-1 rounded-sm">Executed</h5>
           </div>
         </div>
         <div className="my-5 flex flex-col gap-1 text-sm">

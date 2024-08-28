@@ -20,7 +20,7 @@ interface AlphabetStockEntry {
   volume: number;
 }
 
-const PortfolioChart: React.FC = () => {
+const PortfolioChart: React.FC<AlphabetStockEntry> = () => {
   const series: AllSeriesType[] = [
     {
       type: 'line',

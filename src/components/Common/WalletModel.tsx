@@ -34,7 +34,7 @@ interface WalletCardProps {
 }
 
 
-export default function WalletModel(props: WalletCardProps) {
+const WalletModel: React.FC<WalletCardProps> = (props) => {
     return (
           <>
             <div
@@ -73,3 +73,5 @@ export default function WalletModel(props: WalletCardProps) {
           </>
     );
   }
+
+  export default WalletModel;

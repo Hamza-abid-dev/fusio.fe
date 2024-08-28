@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-const Card = (props: TopPorfoliosCardProps) => {
+const Card: React.FC<TopPorfoliosCardProps> = (props) => {
   return (
     <>
     <Link to={`${props.title.replace(' ', '-')}`}>

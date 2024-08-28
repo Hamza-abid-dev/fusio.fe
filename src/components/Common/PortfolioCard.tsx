@@ -1,4 +1,4 @@
-const PortfolioCard = (props: PortfolioCardProps) => {
+const PortfolioCard: React.FC<PortfolioCardProps> = (props) => {
 	return (
 		<div>
 			<div className="card shadow-xl shadow-[#919191] bg-[#18749D] text-white items-center py-3 px-5 rounded-xl justify-between">
