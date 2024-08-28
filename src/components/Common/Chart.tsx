@@ -66,7 +66,7 @@ const Chart: React.FC = () => {
           <ChartsXAxis
             position="bottom"
             axisId="date"
-            tickInterval={(value: Date, index: number) => index % 30 === 0}
+            tickInterval={(index: number) => index % 30 === 0}
             tickLabelStyle={{
               fontSize: 10,
             }}

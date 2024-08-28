@@ -15,8 +15,7 @@ import Explore from "../../pages/Explore";
 import ExploreCardDetail from "../../pages/ExploreCardDetails";
 import CuratedPortfolio from "../../pages/CuratedPortfolio";
 import PortfolioBuilder from "../../pages/PortfolioBuilder";
-import PortfolioManager from "/Projects/fusio-fe/src/pages/PortfolioManager"
-// import NotFoundPage from "../../pages/NotFound/Loadable";s
+import PortfolioManager from "../../pages/PortfolioManager/Loadable";
 
 function AppRoutes() {
   return (

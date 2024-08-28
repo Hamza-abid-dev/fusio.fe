@@ -9,7 +9,7 @@ interface PortfoliosCardProps {
   desc1: string;
   desc2: string;
   desc3: string;
-  status: 'active' | 'inactive'; // or use other appropriate status values
+  status: String; // or use other appropriate status values
 }
 
 const PortfoliosCard: React.FC<PortfoliosCardProps> = (props) => {

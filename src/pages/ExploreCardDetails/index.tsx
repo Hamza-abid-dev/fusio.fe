@@ -126,7 +126,7 @@ const ExploreCardDetail: React.FC = () => {
           </div>
         </div>
         <div className="lg:col-span-4">
-          <CardDetailChart date='' high={0} volume={0} />
+          <CardDetailChart />
         </div>
         <div className="lg:col-span-2 bg-[#18749D] p-4 rounded-lg text-white/80">
           <h2 className="text-xl font-semibold text-white">Investment Amount</h2>
