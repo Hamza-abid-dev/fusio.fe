@@ -1,0 +1,12 @@
+body{
+    background-image: url(assets/images/bg1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media (min-width: 1024px) {
+    .containerlayout {
+        max-width: 1540px;
+        margin: 0 auto;
+    }
+}
