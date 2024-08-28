@@ -1,3 +1,4 @@
+import React from 'react';
 import { BarPlot } from '@mui/x-charts/BarChart';
 import { LineHighlightPlot, LinePlot } from '@mui/x-charts/LineChart';
 import { ResponsiveChartContainer } from '@mui/x-charts/ResponsiveChartContainer';
@@ -7,21 +8,28 @@ import { ChartsYAxis } from '@mui/x-charts/ChartsYAxis';
 import { ChartsTooltip } from '@mui/x-charts/ChartsTooltip';
 import { ChartsAxisHighlight } from '@mui/x-charts/ChartsAxisHighlight';
 import { axisClasses } from '@mui/x-charts/ChartsAxis';
-import alphabetStock from './Googl.json';
+import alphabetStock from './GOOGL1.json';
 
+// Define types for the stock data
+interface StockData {
+  date: string;
+  high: number;
+  volume: number;
+}
 
-const CardDetailChart = () => {
-	const series = [
-		{
-		  type: 'line',
-		  yAxisId: 'price',
-		  color: '#18749D',
-		  label: 'High',
-		  data: alphabetStock.map((day) => day.high),
-		},
-	  ] as AllSeriesType[];
+const CardDetailChart: React.FC = () => {
+  const series: AllSeriesType[] = [
+    {
+      type: 'line',
+      yAxisId: 'price',
+      color: '#18749D',
+      label: 'High',
+      data: alphabetStock.map((day: StockData) => day.high),
+    },
+  ];
+
   return (
-    <div style={{ width: '100%', backgroundColor: 'white', padding: '5px 10px', borderRadius: '10px', boxShadow: '0px 0px 20px grey'}}>
+    <div style={{ width: '100%', backgroundColor: 'white', padding: '5px 10px', borderRadius: '10px', boxShadow: '0px 0px 20px grey' }}>
       <div>
         <ResponsiveChartContainer
           series={series}
@@ -30,7 +38,7 @@ const CardDetailChart = () => {
           xAxis={[
             {
               id: 'date',
-              data: alphabetStock.map((day) => new Date(day.date)),
+              data: alphabetStock.map((day: StockData) => new Date(day.date)),
               scaleType: 'band',
               valueFormatter: (value) => value.toLocaleDateString(),
             },
@@ -50,17 +58,12 @@ const CardDetailChart = () => {
           <ChartsAxisHighlight x="line" />
           <BarPlot />
           <LinePlot />
-
           <LineHighlightPlot />
           <ChartsXAxis
             position="bottom"
             axisId="date"
-            tickInterval={(value, index) => {
-              return index % 30 === 0;
-            }}
-            tickLabelStyle={{
-              fontSize: 10,
-            }}
+            tickInterval={(index) => index % 30 === 0} // Removed unused 'value' parameter
+            tickLabelStyle={{ fontSize: 10 }}
           />
           <ChartsYAxis
             position="right"
@@ -88,6 +91,6 @@ const CardDetailChart = () => {
       </div>
     </div>
   );
-}
+};
 
 export default CardDetailChart;

@@ -1,7 +1,5 @@
-import React from "react";
 import { Navigate, Route, Routes } from "react-router-dom";
 
-import { paths } from "./paths";
 
 
 // import RequireAuth from "./auth";
@@ -17,32 +15,32 @@ import Explore from "../../pages/Explore";
 import ExploreCardDetail from "../../pages/ExploreCardDetails";
 import CuratedPortfolio from "../../pages/CuratedPortfolio";
 import PortfolioBuilder from "../../pages/PortfolioBuilder";
-import PortfolioManager from "../../pages/Portfoliomanager";
-// import NotFoundPage from "../../pages/NotFound/Loadable";
+import PortfolioManager from "/Projects/fusio-fe/src/pages/PortfolioManager"
+// import NotFoundPage from "../../pages/NotFound/Loadable";s
 
-const AppRoutes: React.FC = () => {
-	return (
-		<>
-	<Routes>
-      <Route path="/" element={<Navigate to="/dashboard"/>} />
-      <Route element={<AppLayout />}>
-        <Route path="dashboard" element={<Dashboard />} />
-        <Route path="portfolio" element={<Portfolio />} />
-        <Route path="transaction" element={<Transaction />} />
-        <Route path="portfolios" element={<Portfolios />} />
-        <Route path="myorders" element={<MyOrders />} />
-        <Route path="withdrawrequests" element={<WithdrawRequests />} />
-        <Route path="rebalancerequests" element={<RebalanceRequests />} />
-        <Route path="explore" element={<Explore />} />
-        <Route path="explore/:title" element={<ExploreCardDetail />} />
-        <Route path="curated-portfolio" element={<CuratedPortfolio />} />
-        <Route path="portfolio-builder" element={<PortfolioBuilder />} />
-        <Route path="portfolio-manager" element={<PortfolioManager />} />
-      </Route>
-      {/* Add other routes here if needed */}
-    </Routes>
-		</>
-	);
-};
+function AppRoutes() {
+  return (
+    <>
+      <Routes>
+        <Route path="/" element={<Navigate to="/dashboard" />} />
+        <Route element={<AppLayout />}>
+          <Route path="dashboard" element={<Dashboard />} />
+          <Route path="portfolio" element={<Portfolio />} />
+          <Route path="transaction" element={<Transaction />} />
+          <Route path="portfolios" element={<Portfolios />} />
+          <Route path="myorders" element={<MyOrders />} />
+          <Route path="withdrawrequests" element={<WithdrawRequests />} />
+          <Route path="rebalancerequests" element={<RebalanceRequests />} />
+          <Route path="explore" element={<Explore />} />
+          <Route path="explore/:title" element={<ExploreCardDetail />} />
+          <Route path="curated-portfolio" element={<CuratedPortfolio />} />
+          <Route path="portfolio-builder" element={<PortfolioBuilder />} />
+          <Route path="portfolio-manager" element={<PortfolioManager />} />
+        </Route>
+        {/* Add other routes here if needed */}
+      </Routes>
+    </>
+  );
+}
 
 export default AppRoutes;
