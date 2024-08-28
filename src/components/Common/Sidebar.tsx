@@ -1,7 +1,5 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import path from "path";
-import { paths } from "../../services/routes/paths";
 const Index = () => {
 	const [activeButton, setActiveButton] = useState(null);
 

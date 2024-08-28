@@ -11,7 +11,7 @@ const Index = () => {
   const [activeButton, setActiveButton] = useState(null);
   const [showModal, setShowModal] = useState(false);
 
-  const handleClick = (buttonId) => {
+  const handleClick = (buttonId: any) => {
     setActiveButton(buttonId);
   };
 

@@ -1,7 +1,7 @@
 import cardBg from "../../assets/images/exploreCardBg.png";
 const CuratedPortfolio = () => {
   return (
-    <div className="bg-white/60 shadow-2xl rounded-xl p-5 mt-12">
+    <div className="bg-white/60 shadow-2xl rounded-xl p-5 mt-14">
       <div
         className="flex justify-between items-center text-white bg-no-repeat p-5 rounded-xl shadow-md bg-cover"
         style={{

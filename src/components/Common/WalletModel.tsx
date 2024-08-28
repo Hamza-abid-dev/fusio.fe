@@ -30,8 +30,8 @@ const walletCard=[
 ]
 
 interface WalletCardProps {
-    showModel: boolean;
-  }
+  showModel: (show: boolean) => void;
+}
 
 
 export default function WalletModel(props: WalletCardProps) {

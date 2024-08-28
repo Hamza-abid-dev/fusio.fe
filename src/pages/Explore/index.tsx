@@ -94,7 +94,7 @@ const Explore = () => {
     setIsChecked(!isChecked);
   };
 
-  const handleClick = (buttonId) => {
+  const handleClick = (buttonId: string) => {
     setActiveButton(buttonId);
   };
   return (
