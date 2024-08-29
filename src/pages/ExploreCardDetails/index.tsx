@@ -89,7 +89,7 @@ const ExploreCardDetail: React.FC = () => {
             />
           </div>
           <div className="flex flex-col gap-2">
-            <h2 className="text-2xl font-semibold">CryptoFace Fund (CF)</h2>
+            <h2 className="text-2xl font-semibold">{cardDetails.title}</h2>
             <div className="flex items-center gap-1">
               <i className="fa-brands fa-linkedin"></i>
               <i className="fa-brands fa-x-twitter"></i>

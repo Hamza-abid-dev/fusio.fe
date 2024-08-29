@@ -10,7 +10,7 @@ const AppLayout: React.FC<IAppLayoutProps> = () => {
         <Navbar />
 		<div className="containerlayout flex">
       <Sidebar />
-      <div className="flex-1 px-10">
+      <div className="flex-1 lg:px-10 md:px-5 px-3">
         <main>
           <Outlet />
         </main>
