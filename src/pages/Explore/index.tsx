@@ -16,7 +16,8 @@ const card = [
 		desc1: 'Ticker: TEX',
 		desc2: 'Assets: SOL, BTCB, PENDLE, ATOM, BEAM, FIL, ORAI, FET',
 		desc3: 'Expected Returns: Conservative',
-		desc4: 'Transaction Fees: 2.5'
+		desc4: 'Transaction Fees: 2.5',
+		bg: 'blue'
 	},
 	{
 		img: logo3,
@@ -24,7 +25,8 @@ const card = [
 		desc1: 'Ticker: TEX',
 		desc2: 'Assets: SOL, BTCB, PENDLE, ATOM, BEAM, FIL, ORAI, FET',
 		desc3: 'Expected Returns: Conservative',
-		desc4: 'Transaction Fees: 2.5'
+		desc4: 'Transaction Fees: 2.5',
+		bg: 'blue'
 	},
 	{
 		img: logo4,
@@ -32,7 +34,8 @@ const card = [
 		desc1: 'Ticker: TEX',
 		desc2: 'Assets: SOL, BTCB, PENDLE, ATOM, BEAM, FIL, ORAI, FET',
 		desc3: 'Expected Returns: Conservative',
-		desc4: 'Transaction Fees: 2.5'
+		desc4: 'Transaction Fees: 2.5',
+		bg: 'green'
 	},
 	{
 		img: logo5,
@@ -40,7 +43,8 @@ const card = [
 		desc1: 'Ticker: TEX',
 		desc2: 'Assets: SOL, BTCB, PENDLE, ATOM, BEAM, FIL, ORAI, FET',
 		desc3: 'Expected Returns: Conservative',
-		desc4: 'Transaction Fees: 2.5'
+		desc4: 'Transaction Fees: 2.5',
+		bg: 'blue'
 	},
 	{
 		img: logo6,
@@ -48,7 +52,8 @@ const card = [
 		desc1: 'Ticker: TEX',
 		desc2: 'Assets: SOL, BTCB, PENDLE, ATOM, BEAM, FIL, ORAI, FET',
 		desc3: 'Expected Returns: Conservative',
-		desc4: 'Transaction Fees: 2.5'
+		desc4: 'Transaction Fees: 2.5',
+		bg: 'green'
 	},
 	{
 		img: logo7,
@@ -56,7 +61,8 @@ const card = [
 		desc1: 'Ticker: TEX',
 		desc2: 'Assets: SOL, BTCB, PENDLE, ATOM, BEAM, FIL, ORAI, FET',
 		desc3: 'Expected Returns: Conservative',
-		desc4: 'Transaction Fees: 2.5'
+		desc4: 'Transaction Fees: 2.5',
+		bg: 'blue'
 	},
 	{
 		img: logo2,
@@ -64,7 +70,8 @@ const card = [
 		desc1: 'Ticker: TEX',
 		desc2: 'Assets: SOL, BTCB, PENDLE, ATOM, BEAM, FIL, ORAI, FET',
 		desc3: 'Expected Returns: Conservative',
-		desc4: 'Transaction Fees: 2.5'
+		desc4: 'Transaction Fees: 2.5',
+		bg: 'blue'
 	},
 	{
 		img: logo3,
@@ -72,7 +79,8 @@ const card = [
 		desc1: 'Ticker: TEX',
 		desc2: 'Assets: SOL, BTCB, PENDLE, ATOM, BEAM, FIL, ORAI, FET',
 		desc3: 'Expected Returns: Conservative',
-		desc4: 'Transaction Fees: 2.5'
+		desc4: 'Transaction Fees: 2.5',
+		bg: 'green'
 	},
 	{
 		img: logo4,
@@ -80,9 +88,120 @@ const card = [
 		desc1: 'Ticker: TEX',
 		desc2: 'Assets: SOL, BTCB, PENDLE, ATOM, BEAM, FIL, ORAI, FET',
 		desc3: 'Expected Returns: Conservative',
-		desc4: 'Transaction Fees: 2.5'
+		desc4: 'Transaction Fees: 2.5',
+		bg: 'blue'
 	}
 ]
+const myPortfolioCards = [
+	{
+		img: logo2,
+		title: 'CryptoFace Fund',
+		desc1: 'Ticker: TEX',
+		desc2: 'Assets: SOL, BTCB, PENDLE, ATOM, BEAM, FIL, ORAI, FET',
+		desc3: 'Expected Returns: Conservative',
+		desc4: 'Transaction Fees: 2.5',
+		bg: 'green'
+	},
+	{
+		img: logo3,
+		title: "Sensei's Top Tier",
+		desc1: 'Ticker: TEX',
+		desc2: 'Assets: SOL, BTCB, PENDLE, ATOM, BEAM, FIL, ORAI, FET',
+		desc3: 'Expected Returns: Conservative',
+		desc4: 'Transaction Fees: 2.5',
+		bg: 'green'
+	},
+	{
+		img: logo4,
+		title: 'UltraRun',
+		desc1: 'Ticker: TEX',
+		desc2: 'Assets: SOL, BTCB, PENDLE, ATOM, BEAM, FIL, ORAI, FET',
+		desc3: 'Expected Returns: Conservative',
+		desc4: 'Transaction Fees: 2.5',
+		bg: 'ggreen'
+	},
+	{
+		img: logo5,
+		title: 'RWA Fund',
+		desc1: 'Ticker: TEX',
+		desc2: 'Assets: SOL, BTCB, PENDLE, ATOM, BEAM, FIL, ORAI, FET',
+		desc3: 'Expected Returns: Conservative',
+		desc4: 'Transaction Fees: 2.5',
+		bg: 'green'
+	},
+	{
+		img: logo6,
+		title: 'Pandora',
+		desc1: 'Ticker: TEX',
+		desc2: 'Assets: SOL, BTCB, PENDLE, ATOM, BEAM, FIL, ORAI, FET',
+		desc3: 'Expected Returns: Conservative',
+		desc4: 'Transaction Fees: 2.5',
+		bg: 'ggreen'
+	},
+	{
+		img: logo7,
+		title: 'Mega Cap Market Fund',
+		desc1: 'Ticker: TEX',
+		desc2: 'Assets: SOL, BTCB, PENDLE, ATOM, BEAM, FIL, ORAI, FET',
+		desc3: 'Expected Returns: Conservative',
+		desc4: 'Transaction Fees: 2.5',
+		bg: 'green'
+	},
+	{
+		img: logo2,
+		title: 'CryptoFace Fund',
+		desc1: 'Ticker: TEX',
+		desc2: 'Assets: SOL, BTCB, PENDLE, ATOM, BEAM, FIL, ORAI, FET',
+		desc3: 'Expected Returns: Conservative',
+		desc4: 'Transaction Fees: 2.5',
+		bg: 'green'
+	},
+	{
+		img: logo3,
+		title: "Sensei's Top Tier",
+		desc1: 'Ticker: TEX',
+		desc2: 'Assets: SOL, BTCB, PENDLE, ATOM, BEAM, FIL, ORAI, FET',
+		desc3: 'Expected Returns: Conservative',
+		desc4: 'Transaction Fees: 2.5',
+		bg: 'ggreen'
+	},
+	{
+		img: logo4,
+		title: 'UltraRun',
+		desc1: 'Ticker: TEX',
+		desc2: 'Assets: SOL, BTCB, PENDLE, ATOM, BEAM, FIL, ORAI, FET',
+		desc3: 'Expected Returns: Conservative',
+		desc4: 'Transaction Fees: 2.5',
+		bg: 'green'
+	}
+]
+
+
+const AllPortfolios = () => (
+	<>
+	{card.map((x)=>(
+			<ExploreCard key={x.title} img={x.img} title={x.title} desc1={x.desc1} desc2={x.desc2} desc3={x.desc3} desc4={x.desc4} bg={x.bg}/>
+		))}
+	</>
+  );
+  
+  const MyPortfolios = () => (
+	<>
+	{myPortfolioCards.map((x)=>(
+			<ExploreCard key={x.title} img={x.img} title={x.title} desc1={x.desc1} desc2={x.desc2} desc3={x.desc3} desc4={x.desc4} bg={x.bg}/>
+		))}
+	</>
+  );
+  const CustomizedPortfolios = () => (
+	<>
+	{card.map((x)=>(
+			<ExploreCard key={x.title} img={x.img} title={x.title} desc1={x.desc1} desc2={x.desc2} desc3={x.desc3} desc4={x.desc4} bg={x.bg}/>
+		))}
+	</>
+  );
+
+
+
 
 
 const Explore = () => {
@@ -96,6 +215,19 @@ const Explore = () => {
 
   const handleClick = (buttonId: string) => {
     setActiveButton(buttonId);
+  };
+
+  const renderContent = () => {
+    switch (activeButton) {
+      case "button1":
+        return <AllPortfolios />;
+      case "button2":
+        return <MyPortfolios />;
+      case "button3":
+        return <CustomizedPortfolios />;
+      default:
+        return <AllPortfolios/>;
+    }
   };
   return (
     <div className="p-5">
@@ -112,7 +244,7 @@ const Explore = () => {
     >
       All Portfolios
     </Link>
-    <Link
+	<Link
       to=""
       className={`cursor-pointer ${
         activeButton === "button2"
@@ -120,6 +252,17 @@ const Explore = () => {
           : "no-underline"
       }`}
       onClick={() => handleClick("button2")}
+    >
+      My Portfolios
+    </Link>
+    <Link
+      to=""
+      className={`cursor-pointer ${
+        activeButton === "button3"
+          ? "underline underline-offset-[22px]"
+          : "no-underline"
+      }`}
+      onClick={() => handleClick("button3")}
     >
       Customized Portfolios
     </Link>
@@ -145,10 +288,8 @@ const Explore = () => {
     </div>
   </div>
 </div>
-	  <div className={isChecked ? "hidden" : "grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5 my-10"}>
-		{card.map((x)=>(
-			<ExploreCard key={x.title} img={x.img} title={x.title} desc1={x.desc1} desc2={x.desc2} desc3={x.desc3} desc4={x.desc4}/>
-		))}
+	  <div className={isChecked ? "hidden" : "grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5 my-10 md:w-[100%] w-[90%] mx-auto"}>
+	  {renderContent()}
 	  </div>
     </div>
   );

@@ -18,9 +18,9 @@ const Index = () => {
 									? 'text-[#18749D] before:content-[""] before:px-[6px] before:rounded-e-lg before:py-6 before:top-[-10px] before:left-[-40px] before:absolute before:bg-[#18749D]'
 									: "text-[black]"
 							}`}
-							to="portfolio"
+							to="investments"
 						>
-							My Portfolio
+							My Investments
 						</Link>
 						<Link
 							onClick={() => handleClick("button2")}
@@ -42,7 +42,7 @@ const Index = () => {
 							}`}
 							to="/portfolios"
 						>
-							Portfolios
+							Rebalance Portfolios
 						</Link>
 						<Link
 							onClick={() => handleClick("button4")}

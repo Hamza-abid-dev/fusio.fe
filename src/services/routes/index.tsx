@@ -15,7 +15,7 @@ import Explore from "../../pages/Explore";
 import ExploreCardDetail from "../../pages/ExploreCardDetails";
 import CuratedPortfolio from "../../pages/CuratedPortfolio";
 import PortfolioBuilder from "../../pages/PortfolioBuilder";
-import PortfolioManager from "../../pages/PortfolioManager/Loadable";
+import PortfolioManager from "../../pages/PortfolioManager/Index";
 
 function AppRoutes() {
   return (
@@ -24,7 +24,7 @@ function AppRoutes() {
         <Route path="/" element={<Navigate to="/dashboard" />} />
         <Route element={<AppLayout />}>
           <Route path="dashboard" element={<Dashboard />} />
-          <Route path="portfolio" element={<Portfolio />} />
+          <Route path="investments" element={<Portfolio />} />
           <Route path="transaction" element={<Transaction />} />
           <Route path="portfolios" element={<Portfolios />} />
           <Route path="myorders" element={<MyOrders />} />

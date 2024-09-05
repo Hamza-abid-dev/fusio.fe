@@ -51,7 +51,7 @@ const PortfolioManager = () => {
       </form>
       <div className="my-2">
         <h2>Available Balance: 0</h2>
-        <h2>Transaction Fees 2.5%</h2>
+        <h2>Transaction Fees 2.5% <i className="fa fa-info-circle text-[#18749D] text-sm"></i></h2>
       </div>
         <button className="text-white bg-[#18749D] py-2 px-5 rounded-md mt-10">Submit</button>
     </div>

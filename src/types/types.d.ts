@@ -33,6 +33,7 @@ interface CardProps {
     desc2: string;
     desc3: string;
     desc4: string;
+    bg: string;
   }
 
   interface ExploreDetailCardProps {
@@ -62,4 +63,6 @@ interface CardProps {
   interface WalletCardProps {
     img: String;
     title: string;
+    qr: string;
+    number: string;
   }

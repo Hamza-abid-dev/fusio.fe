@@ -38,7 +38,7 @@ const RebalanceCard: React.FC<MyOrderCardsProps> = (props) => {
             <span>Ticker</span> <span className="text-white/80">{props.desc1}</span>
           </h5>
           <h5 className="flex justify-between">
-            Expected Returns <span className="text-white/80">{props.desc2}</span>
+            Expected Returns <span className="text-white/80">{props.desc2} <i className='fa fa-angle-double-up text-xs bg-[#FFEB38] text-black px-[3px] rounded-full'></i></span>
           </h5>
           <h5 className="flex justify-between">
             Order Time <span className="text-white/80">{props.desc3}</span>

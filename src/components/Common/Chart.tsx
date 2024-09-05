@@ -37,7 +37,7 @@ const Chart: React.FC = () => {
       <div>
         <ResponsiveChartContainer
           series={series}
-          height={200}
+          height={230}
           margin={{ top: 10 }}
           xAxis={[
             {

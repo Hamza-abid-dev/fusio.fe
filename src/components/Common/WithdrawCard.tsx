@@ -31,7 +31,7 @@ const WithdrawCard: React.FC<MyOrderCardsProps> = (props) => {
           />
           <div className="flex flex-col mt-3">
             <h2 className="font-semibold text-white text-xl">{props.title}</h2>
-            <h5 className="bg-[#05E700] p-1 text-xs text-[green] w-[40%] mt-1 rounded-sm">Executed</h5>
+            <h5 className="bg-[#05E700] p-1 text-xs text-[green] w-[40%] mt-1 rounded-sm">Approved</h5>
           </div>
         </div>
         <div className="my-5 flex flex-col gap-1 text-sm">
@@ -50,7 +50,7 @@ const WithdrawCard: React.FC<MyOrderCardsProps> = (props) => {
         </div>
         <div className="flex items-center justify-end gap-4">
           <button className="bg-[#00B2FF] py-1 px-2 rounded-sm">View Transaction</button>
-          <button className="bg-[#00B2FF] py-1 px-2 rounded-sm">Claim</button>
+          <button className="py-1 px-2 rounded-sm text-[#05E700] text-sm">Claimed</button>
         </div>
       </div>
     </div>

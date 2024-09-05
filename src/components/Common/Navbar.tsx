@@ -106,13 +106,6 @@ const Index = () => {
             <i className="fa fa-bell text-gray-800"></i>
             <span className="absolute top-0 right-0 block w-3 h-3 bg-[#18749D] rounded-full"></span>
           </button>
-          <Link to="/profile">
-            <img
-              className="border-4 rounded-full border-[#18749D] w-10 h-10"
-              src={profileImg}
-              alt="Profile"
-            />
-          </Link>
         </div>
 
         {/* Mobile Menu Button */}
@@ -152,9 +145,6 @@ const Index = () => {
         </Link>
         <Link to="/connect-wallet" className="block px-4 py-2 hover:bg-gray-700">
           Connect Wallet
-        </Link>
-        <Link to="/profile" className="block px-4 py-2 hover:bg-gray-700">
-          Profile
         </Link>
       </div>
     </nav>

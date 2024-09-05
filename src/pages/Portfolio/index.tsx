@@ -151,7 +151,7 @@ const Portfolio = () => {
       />
       <InvestmentCard
         title="Atlantis"
-        value="56.8599 USDC"
+        value="-56.8599 USDC"
         price="49.375 USDC"
       />
     </div>

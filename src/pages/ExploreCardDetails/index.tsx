@@ -130,10 +130,9 @@ const ExploreCardDetail: React.FC = () => {
         </div>
         <div className="lg:col-span-2 bg-[#18749D] p-4 rounded-lg text-white/80">
           <h2 className="text-xl font-semibold text-white">Investment Amount</h2>
-          <h3 className="my-4">DAO NFT holders will get up to 40% discount</h3>
-          <h3>Enter Amount (USDC)</h3>
+          <h3 className='mt-5'>Enter Amount (USDC)</h3>
           <input
-            className="my-2 rounded-md px-3 text-black w-full"
+            className="mt-2 mb-5 rounded-md px-3 text-black w-full"
             type="text"
             name=""
             id=""
@@ -141,8 +140,16 @@ const ExploreCardDetail: React.FC = () => {
           <h5>Fuel Fees: 0</h5>
           <h5>Transaction Fees: 2.5%</h5>
           <h5>Available Balance: 0</h5>
-          <button className="mt-3 bg-[#00B2FF] py-2 px-7 rounded-md text-white w-full">
+          <button className="mt-3 bg-[#00B2FF] py-2 px-7 rounded-md text-white">
             Invest
+          </button>
+          <br />  
+          <button className="mt-3 bg-[#00B2FF] py-2 px-7 rounded-md text-white">
+          Rebalance
+          </button>
+          <br />
+          <button className="mt-3 bg-[#00B2FF] py-2 px-7 rounded-md text-white">
+          withdraw
           </button>
         </div>
       </div>

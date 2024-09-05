@@ -35,9 +35,9 @@ const PortfolioBuilder = () => {
         <div className="mb-5">
           <label
             htmlFor="email"
-            className="block mb-2 text-lg font-semibold"
+            className="mb-2 text-lg font-semibold flex items-center gap-1"
           >
-            Portfolio Ticker
+            Portfolio Ticker <i className="fa fa-info-circle text-[#18749D] text-sm"></i>
           </label>
           <input
             type="text"
@@ -54,13 +54,9 @@ const PortfolioBuilder = () => {
           >
             Expected Returns
           </label>
-          <input
-            type="text"
-            id="text"
-            className="bg-[#18749D] p-3 rounded-md w-[100%] placeholder:text-white/70"
-            placeholder="Select Expected Returns"
-            required
-          />
+          <select className="form-select appearance-none bg-[#18749D] p-3 rounded-md w-[100%] text-white/70">
+            <option><i className="fa fa-search"></i> Select Expected Returns</option>
+          </select>
         </div>
         <div className="mb-5">
           <label
@@ -75,7 +71,7 @@ const PortfolioBuilder = () => {
         </div>
         <div className="mt-10">
           <h2>
-          Transaction Fees 4%
+          Transaction Fees 4% <i className="fa fa-info-circle text-[#18749D] text-sm"></i>
           </h2>
           <h2>
           Total Asset Allocation 0%
