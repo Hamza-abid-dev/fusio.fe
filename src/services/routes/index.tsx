@@ -15,7 +15,7 @@ import Explore from "../../pages/Explore";
 import ExploreCardDetail from "../../pages/ExploreCardDetails";
 import CuratedPortfolio from "../../pages/CuratedPortfolio";
 import PortfolioBuilder from "../../pages/PortfolioBuilder";
-import PortfolioManager from "../../pages/PortfolioManager/Index";
+import PortfolioManager from "../../pages/PortfolioManager/Loadable";
 
 function AppRoutes() {
   return (

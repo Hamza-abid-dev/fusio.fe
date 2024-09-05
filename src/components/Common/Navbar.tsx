@@ -2,7 +2,6 @@ import { useState } from "react";
 import logo from "../../assets/images/logo.png";
 import { Menu, MenuButton, MenuItems, MenuItem } from "@headlessui/react";
 import { ChevronDownIcon } from "@heroicons/react/20/solid";
-import profileImg from "../../assets/images/Container.png";
 import { Link } from "react-router-dom";
 import WalletModel from "./WalletModel";
 
