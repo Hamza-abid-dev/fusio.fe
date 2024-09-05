@@ -1,3 +1,3 @@
 import loadable from "../../utils/Loadable";
 
-export default loadable(() => import("./Index"), {});
+export default loadable(() => import("./main"), {});
