@@ -54,15 +54,15 @@ const Dashboard = () => {
 		<div className="border border-[#18749D]/30 shadow-md rounded-lg p-5">
 		{/* Header Section */}
 		<div
-		  className="pt-3 px-4 pb-5 rounded-lg text-white"
+		  className="pt-3 px-6 pb-5 rounded-lg text-white"
 		  style={{
 			backgroundImage: `url(${bg})`,
 			backgroundSize: "cover",
 			backgroundPosition: "center",
 		  }}
 		>
-		  <h1 className="text-xl sm:text-4xl md:text-5xl font-[900] my-3">Welcome to Fusio!</h1>
-		  <h5 className="text-xs md:text-lg">
+		  <h1 className="dashboard-heading text-xl sm:text-4xl md:text-5xl font-[900] my-3">Welcome to Fusio!</h1>
+		  <h5 className="text-xs md:text-lg text-white/80 mb-5">
 		  A simple to use platform for both new and experienced crypto investors to create ther <br/> own diversified portfolios or invest in a curated one.
 		  </h5>
 		</div>
@@ -124,7 +124,7 @@ const Dashboard = () => {
 				  </p>
 				</div>
 				))}
-				<h2 className=" col-span-6 flex items-center gap-5 text-[#18749D] font-semibold">Don't want to invest in a curated portfolio? <a className="underline underline-offset-1 text-[#00B2FF]" href="">Create your own</a></h2>
+				<h2 className=" col-span-6 flex items-center gap-5 text-[#18749D] font-semibold">Don't want to invest in a curated portfolio? <a className="underline underline-offset-1 text-[#00B2FF]" href="#">Create your own</a></h2>
 				</div>
 			</div>
 		  </div>

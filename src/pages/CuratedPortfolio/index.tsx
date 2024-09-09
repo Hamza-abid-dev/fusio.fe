@@ -27,7 +27,7 @@ const CuratedPortfolio = () => {
           <input
             type="text"
             id="text"
-            className="bg-[#18749D] p-3 rounded-md w-[100%] placeholder:text-white/70"
+            className="bg-[#18749D] p-3 rounded-md w-[100%] placeholder:text-white/70 text-white ring-0 border border-[white] focus:outline-none focus:ring-0 focus:border-white"
             placeholder="Enter Name"
             required
           />
@@ -40,11 +40,11 @@ const CuratedPortfolio = () => {
             Portfolio Ticker <i className="fa fa-info-circle text-[#18749D] text-sm"></i>
           </label>
           <input
-            type="text"
-            id="text"
-            className="bg-[#18749D] p-3 rounded-md w-[100%] placeholder:text-white/70"
-            placeholder="Enter Ticker"
-            required
+          type="text"
+          id="text"
+          className="bg-[#18749D] p-3 rounded-md w-[100%] placeholder:text-white/70 text-white ring-0 border border-[white] focus:outline-none focus:ring-0 focus:border-white"
+          placeholder="Enter Ticker"
+          required
           />
         </div>
         <div className="mb-5">
@@ -54,7 +54,7 @@ const CuratedPortfolio = () => {
           >
             Expected Returns
           </label>
-          <select className="form-select appearance-none bg-[#18749D] p-3 rounded-md w-[100%] text-white/70">
+          <select className="form-select appearance-none bg-[#18749D] p-3 rounded-md w-[100%] placeholder:text-white/70 text-white ring-0 border border-[white] focus:outline-none focus:ring-0 focus:border-white">
             <option><i className="fa fa-search"></i> Select Expected Returns</option>
           </select>
         </div>
@@ -65,7 +65,7 @@ const CuratedPortfolio = () => {
           >
             Search Asset 
           </label>
-          <select className="form-select appearance-none bg-[#18749D] p-3 rounded-md w-[100%] text-white/70">
+          <select className="form-select appearance-none bg-[#18749D] p-3 rounded-md w-[100%] placeholder:text-white/70 text-white ring-0 border border-[white] focus:outline-none focus:ring-0 focus:border-white">
             <option><i className="fa fa-search"></i> Search Asset Name</option>
           </select>
         </div>
@@ -79,7 +79,7 @@ const CuratedPortfolio = () => {
           <input
             type="text"
             id="text"
-            className="bg-[#18749D] p-3 rounded-md w-[100%] placeholder:text-white/70"
+            className="bg-[#18749D] p-3 rounded-md w-[100%] placeholder:text-white/70 text-white ring-0 border border-[white] focus:outline-none focus:ring-0 focus:border-white"
             placeholder="Enter Fees"
             required
           />

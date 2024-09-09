@@ -27,7 +27,7 @@ const PortfolioBuilder = () => {
           <input
             type="text"
             id="text"
-            className="bg-[#18749D] p-3 rounded-md w-[100%] placeholder:text-white/70"
+            className="bg-[#18749D] p-3 rounded-md w-[100%] placeholder:text-white/70 text-white ring-0 border border-[white] focus:outline-none focus:ring-0 focus:border-white"
             placeholder="Enter Name"
             required
           />
@@ -42,7 +42,7 @@ const PortfolioBuilder = () => {
           <input
             type="text"
             id="text"
-            className="bg-[#18749D] p-3 rounded-md w-[100%] placeholder:text-white/70"
+            className="bg-[#18749D] p-3 rounded-md w-[100%] placeholder:text-white/70 text-white ring-0 border border-[white] focus:outline-none focus:ring-0 focus:border-white"
             placeholder="Enter Ticker"
             required
           />
@@ -54,7 +54,7 @@ const PortfolioBuilder = () => {
           >
             Expected Returns
           </label>
-          <select className="form-select appearance-none bg-[#18749D] p-3 rounded-md w-[100%] text-white/70">
+          <select className="form-select appearance-none bg-[#18749D] p-3 rounded-md w-[100%] placeholder:text-white/70 text-white ring-0 border border-[white] focus:outline-none focus:ring-0 focus:border-white">
             <option><i className="fa fa-search"></i> Select Expected Returns</option>
           </select>
         </div>
@@ -65,7 +65,7 @@ const PortfolioBuilder = () => {
           >
             Search Asset 
           </label>
-          <select className="form-select bg-[#18749D] p-3 rounded-md w-[100%]  appearance-none pr-8 pl-2 text-white/70">
+          <select className="form-select appearance-none bg-[#18749D] p-3 rounded-md w-[100%] placeholder:text-white/70 text-white ring-0 border border-[white] focus:outline-none focus:ring-0 focus:border-white">
             <option> Search Asset Name</option>
           </select>
         </div>
