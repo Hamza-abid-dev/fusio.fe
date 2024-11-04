@@ -1,4 +1,7 @@
+import { RiFileCopyFill } from "react-icons/ri";
+
 const Transaction = () => {
+
 
 
   const data = [
@@ -56,10 +59,10 @@ const Transaction = () => {
         <td className="py-3 lg:px-2 px-1  text-[5px] md:text-[8px]  lg:text-sm border-r">{x.no}</td>
         <td className="py-3 lg:px-2 px-1  text-[5px] md:text-[8px]  lg:text-sm border-r">{x.portfolio}</td>
         <td className="py-3 lg:px-2 px-1  text-[5px] md:text-[8px]  lg:text-sm border-r">
-          {x.transection} <i className="fa fa-chain text-blue-500"></i>
+          {x.transection} <i className="fa fa-chain text-[#18749D]"></i>
         </td>
         <td className="py-3 lg:px-2 px-1  text-[5px] md:text-[8px]  lg:text-sm border-r">
-          {x.wallet} <i className="fa fa-clipboard text-blue-500"></i>
+          {x.wallet} <RiFileCopyFill color="#18749D" size={18} />
         </td>
         <td className="py-3 lg:px-2 px-1  text-[5px] md:text-[8px]  lg:text-sm border-r">{x.amount}</td>
         <td className="py-3 lg:px-2 px-1  text-[5px] md:text-[8px]  lg:text-sm border-r">{x.transectionFee}</td>

@@ -5,10 +5,10 @@ const Card: React.FC<TopPorfoliosCardProps> = (props) => {
     <>
     <Link to={`${props.title.replace(' ', '-')}`}>
     <div
-        className="relative bg-[#18749D] rounded-md text-center text-white p-4"
+        className="relative w-[170px] bg-[#18749D] rounded-md text-center text-white p-4"
       >
         <img
-          className="absolute w-[110px] bg-white rounded-full top-[-55px] left-[50%] transform -translate-x-1/2"
+          className="absolute w-[100px] h-[100px] bg-white rounded-[50%] object-contain top-[-55px] left-[50%] transform -translate-x-1/2"
           src={`${props.img}`}
           alt="Portfolio Logo"
         />

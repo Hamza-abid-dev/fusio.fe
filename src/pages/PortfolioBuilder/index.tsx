@@ -71,10 +71,10 @@ const PortfolioBuilder = () => {
         </div>
         <div className="mt-10">
           <h2>
-          Transaction Fees 4% <i className="fa fa-info-circle text-[#18749D] text-sm"></i>
+          Transaction Fees: 4%<i className="fa fa-info-circle text-[#18749D] text-sm"></i>
           </h2>
           <h2>
-          Total Asset Allocation 0%
+          Total Asset Allocation: 0%
           </h2>
         </div>
       </form>

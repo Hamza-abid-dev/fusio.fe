@@ -1,12 +1,33 @@
-body{
+.dashboardBg{
     background-image: url(assets/images/bg1.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
+body{
+  position: relative;
+}
+
+
+.BgTop{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 40%;
+}
+
+.BgBottom{
+  position: absolute;
+  z-index: -1;
+  bottom: 0;
+  width: 50%;
+  right: 0;
+  filter: blur(20px);
+}
 
 @media (min-width: 1024px) {
     .containerlayout {
-        max-width: 1540px;
+        max-width: 1700px;
         margin: 0 auto;
     }
 }

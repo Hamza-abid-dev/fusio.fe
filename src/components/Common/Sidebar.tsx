@@ -8,8 +8,8 @@ const Index = () => {
 	};
 	return (
 		<div>
-			<div className="main px-10 md:flex hidden">
-				<div className="mt-16 w-[100%]">
+			<div className="main pl-10 md:flex hidden">
+				<div className="mt-16 w-[200px]">
 					<div className="flex flex-col text-black text-xl font-semibold gap-[30px]">
 						<Link
 							onClick={() => handleClick("button1")}

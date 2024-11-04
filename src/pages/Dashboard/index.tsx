@@ -54,7 +54,7 @@ const Dashboard = () => {
 		<div className="border border-[#18749D]/30 shadow-md rounded-lg p-5">
 		{/* Header Section */}
 		<div
-		  className="pt-3 px-6 pb-5 rounded-lg text-white"
+		  className="pt-3 px-6 pb-5 shadow-lg shadow-black/40 rounded-lg text-white"
 		  style={{
 			backgroundImage: `url(${bg})`,
 			backgroundSize: "cover",
@@ -68,41 +68,41 @@ const Dashboard = () => {
 		</div>
   
 		{/* Market Trend and High Growth Portfolios */}
-		<div className="flex flex-col lg:flex-row lg:justify-between gap-5 lg:gap-20 mt-5">
-		  {/* Market Trend */}
-		  <div className="flex-1">
-			<h1 className="text-lg sm:text-xl font-semibold my-5">Market Trend</h1>
-			<div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-3">
-			  <Card img={cardimg} title="BTCB" semiTitle="(60%)" percent="0.26%" icon="arrow-up" />
-			  <Card img={cardimg2} title="FET" semiTitle="(5%)" percent="-0.23%" icon="arrow-down" />
-			  <Card img={cardimg3} title="PEPE" semiTitle="(5%)" percent="0.53%" icon="arrow-up" />
-			  <Card img={cardimg} title="BTCB" semiTitle="(60%)" percent="0.26%" icon="arrow-down" />
+			<div className="flex flex-col lg:flex-row lg:justify-between gap-2 mt-5">
+			{/* Market Trend */}
+			<div className="">
+				<h1 className="text-lg sm:text-xl font-semibold my-5">Market Trend</h1>
+				<div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-5">
+				<Card img={cardimg} title="BTCB" semiTitle="(60%)" percent="0.26%" icon="arrow-up" />
+				<Card img={cardimg2} title="FET" semiTitle="(5%)" percent="-0.23%" icon="arrow-down" />
+				<Card img={cardimg3} title="PEPE" semiTitle="(5%)" percent="0.53%" icon="arrow-up" />
+				<Card img={cardimg} title="BTCB" semiTitle="(60%)" percent="0.26%" icon="arrow-down" />
+				</div>
 			</div>
-		  </div>
-  
-		  {/* High Growth Portfolios */}
-		  <div className="flex-1">
-			<h1 className="text-lg sm:text-xl font-semibold mt-5 mb-16">Top Curated portfolios</h1>
-			<div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 gap-y-14">
-			  <TopPortfoliosCard img={logo} title="Grey Jabesi" desc="+16% Return Value"/>
-			  <TopPortfoliosCard img={logo1} title="Crypto Sensei" desc="+16% Return Value"/>
-			  <TopPortfoliosCard img={logo2} title="Cryptoface" desc="+16% Return Value"/>
+	
+			{/* High Growth Portfolios */}
+			<div className="flex-wrap">
+				<h1 className="text-lg sm:text-xl font-semibold mt-5 mb-16">Top Curated portfolios</h1>
+				<div className="flex flex-wrap flex-1 justify-evenly gap-4 gap-y-14">
+				<TopPortfoliosCard img={logo} title="Grey Jabesi" desc="+16% Return Value"/>
+				<TopPortfoliosCard img={logo1} title="Crypto Sensei" desc="+16% Return Value"/>
+				<TopPortfoliosCard img={logo2} title="Cryptoface" desc="+16% Return Value"/>
+				</div>
 			</div>
-		  </div>
-		</div>
-  
+			</div>
+	
 		{/* Additional Information and Chart */}
 		<div className="flex flex-col lg:flex-row lg:justify-between lg:gap-10 mt-5">
 		  {/* Information Links and Chart */}
 		  <div className="flex flex-col gap-5 lg:w-[40%]">
-			<div className="font-semibold text-sm sm:text-lg flex gap-5 lg:gap-9 flex-wrap">
-			  <Link to="" className="hover:underline">Tvl</Link>
-			  <Link to="" className="hover:underline">Volume</Link>
-			  <Link to="" className="hover:underline">Raises</Link>
-			  <Link to="" className="hover:underline">Stablecoins</Link>
+			<div className="font-semibold text-sm lg:justify-between gap-5 sm:text-lg flex lg:gap-0">
+			  <Link to="" className="hover:underline text-sm">Tvl</Link>
+			  <Link to="" className="hover:underline text-sm">Volume</Link>
+			  <Link to="" className="hover:underline text-sm">Raises</Link>
+			  <Link to="" className="hover:underline text-sm">Stablecoins</Link>
 			  <Link to="" className="flex gap-2 items-center">
-				<img src={arrowLeft} alt="Arrow Left" />
-				<img src={arrowRight} alt="Arrow Right" />
+				<img className="w-[8px]" src={arrowLeft} alt="Arrow Left" />
+				<img className="w-[8px]" src={arrowRight} alt="Arrow Right" />
 			  </Link>
 			</div>
 			<div>

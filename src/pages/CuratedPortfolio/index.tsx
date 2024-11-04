@@ -84,7 +84,7 @@ const CuratedPortfolio = () => {
             required
           />
           <h2 className="mt-2">
-          Total Asset Allocation 0%
+          Total Asset Allocation: 0%
           </h2>
         </div>
       </form>

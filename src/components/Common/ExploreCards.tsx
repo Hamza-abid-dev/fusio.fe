@@ -27,7 +27,7 @@ const ExploreCard: React.FC<ExploreCardProps> = (props) => {
           <div className="my-3 flex flex-col gap-1 text-sm">
             <h5>{props.desc1}</h5>
             <h5>{props.desc2}</h5>
-            <h5>{props.desc3} <i className='fa fa-angle-double-up text-xs bg-[#FFEB38] text-black px-[3px] rounded-full'></i></h5>
+            <h5>{props.desc3} <i className='fa fa-angle-up text-xs bg-[#FFEB38] text-black px-[3px] rounded-full'></i></h5>
             <h5>{props.desc4}</h5>
           </div>
         </div>

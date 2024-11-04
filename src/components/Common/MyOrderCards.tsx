@@ -33,7 +33,7 @@ const MyOrderCards: React.FC<MyOrderCardsProps> = (props) => {
           <div className="flex flex-col mt-3">
             <h2 className="font-semibold text-white text-xl">{props.title}</h2>
             <div>
-            <h5 className="bg-[#05E700] p-1 text-xs text-[green] mt-1 w-[40%] rounded-sm">Executed</h5>
+            <h5 className="bg-[#05E700] p-1 text-xs text-[green] font-bold mt-1 w-[40%] rounded-sm">Executed</h5>
             </div>
           </div>
         </div>
